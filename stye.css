@@ -1,15 +1,15 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #ffe5e5; /* svijetlo crvena pozadina */
     margin: 20px;
 }
 
 h1 {
-    color: #222;
+    color: darkred;
 }
 
 h2 {
-    color: #555;
+    color: #b30000;
 }
 
 nav ul {
@@ -25,22 +25,27 @@ nav li {
 nav a {
     text-decoration: none;
     color: white;
-    background-color: #333;
+    background-color: darkred;
     padding: 8px 12px;
     border-radius: 5px;
 }
 
 nav a:hover {
-    background-color: #666;
+    background-color: red;
 }
 
 img {
     margin: 10px;
-    border: 2px solid black;
+    border: 3px solid darkred;
+}
+
+video, iframe {
+    margin: 15px 0;
+    border: 3px solid #b30000;
 }
 
 blockquote {
-    background-color: #ddd;
+    background-color: #ffcccc;
     padding: 10px;
-    border-left: 5px solid #333;
+    border-left: 5px solid darkred;
 }
